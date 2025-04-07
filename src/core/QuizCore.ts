@@ -10,7 +10,7 @@ import QuizQuestion from './QuizQuestion';
  * and retrieving information about the current state of the quiz.
  */
 class QuizCore {
-  private questions: QuizQuestion[];
+  private questions: QuizQuestion[]; 
   private currentQuestionIndex: number;
   private score: number;
 
